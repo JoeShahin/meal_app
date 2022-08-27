@@ -56,36 +56,6 @@ List<Category> Dummy_Categories = [
     title: 'Arabian',
     color: Colors.teal,
   ),
-  Category(
-    id: 'c11',
-    title: 'Juice',
-    color: Color.fromARGB(255, 243, 10, 119),
-  ),
-  Category(
-    id: 'c12',
-    title: 'Tea',
-    color: Color.fromARGB(255, 179, 230, 194),
-  ),
-  Category(
-    id: 'c13',
-    title: 'Water',
-    color: Color.fromARGB(255, 203, 212, 115),
-  ),
-  Category(
-    id: 'c14',
-    title: 'Coffee',
-    color: Color.fromARGB(255, 84, 94, 114),
-  ),
-  Category(
-    id: 'c15',
-    title: 'Sugar',
-    color: Color.fromARGB(255, 136, 105, 79),
-  ),
-  Category(
-    id: 'c16',
-    title: 'Salt',
-    color: Color.fromARGB(255, 109, 143, 139),
-  ),
 ];
 
 List<Meals> Dummy_Meals = [
@@ -113,7 +83,7 @@ List<Meals> Dummy_Meals = [
       'Cut the tomatoes and the onion into small pieces.',
       'Boil some water - add salt to it once it boils.',
       'Put the spaghetti into the boiling water - they should be done in about 10 to 12 minutes.',
-      'In the meantime, heaten up some olive oil and add the cut onion.',
+      'In the meantime, heated up some olive oil and add the cut onion.',
       'After 2 minutes, add the tomato pieces, salt, pepper and your other spices.',
       'The sauce will be done once the spaghetti are.',
       'Feel free to add some cheese on top of the finished dish.'
@@ -211,7 +181,7 @@ List<Meals> Dummy_Meals = [
       'Heat the butter and oil in a large pan (allow the fat to get very hot) and fry the schnitzels until golden brown on both sides.',
       'Make sure to toss the pan regularly so that the schnitzels are surrounded by oil and the crumbing becomes ‘fluffy’.',
       'Remove, and drain on kitchen paper. Fry the parsley in the remaining oil and drain.',
-      'Place the schnitzels on awarmed plate and serve garnishedwith parsley and slices of lemon.'
+      'Place the schnitzels on warmed plate and serve garnishedwith parsley and slices of lemon.'
     ],
     isGlutenFree: false,
     isVegan: false,
@@ -225,18 +195,18 @@ List<Meals> Dummy_Meals = [
           'c5',
       'c10',
     ],
-    title: 'Salad with Smoked Salmon',
+    title: 'Mulukhiyah',
     affordability: Affordability.luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
+        'https://ichef.bbci.co.uk/news/640/cpsprodpb/800A/production/_123387723_dabffaf0-823d-4fc8-8f76-bb11581d5da1.jpg',
     duration: 15,
     ingredients: [
       'Arugula',
       'Lamb\'s Lettuce',
       'Parsley',
       'Fennel',
-      '200g Smoked Salmon',
+      '200g Mulukhiyah',
       'Mustard',
       'Balsamic Vinegar',
       'Olive Oil',
@@ -245,7 +215,7 @@ List<Meals> Dummy_Meals = [
     steps: [
       'Wash and cut salad and herbs',
       'Dice the salmon',
-      'Process mustard, vinegar and olive oil into a dessing',
+      'Process mustard, vinegar and olive oil into a dressing',
       'Prepare the salad',
       'Add salmon cubes and dressing'
     ],
@@ -260,19 +230,19 @@ List<Meals> Dummy_Meals = [
       'c6',
       'c10',
     ],
-    title: 'Delicious Orange Mousse',
+    title: 'Konafa with Mango',
     affordability: Affordability.Affordable,
     complexity: Complexity.Complex,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg',
+        'https://tarket3mal.com/Content/Admin/Uploads/Articles/Thumb/120/11068565-5858-48c8-a1f7-bbb75993b186.jpg',
     duration: 240,
     ingredients: [
-      '4 Sheets of Gelatine',
-      '150ml Orange Juice',
+      '4 Sheets of Konafa',
+      '150ml Mango Juice',
       '80g Sugar',
       '300g Yoghurt',
       '200g Cream',
-      'Orange Peel',
+      'Mango Peel',
     ],
     steps: [
       'Dissolve gelatine in pot',
@@ -410,7 +380,7 @@ List<Meals> Dummy_Meals = [
       'c5',
       'c10',
     ],
-    title: 'Asparagus Salad with Cherry Tomatoes',
+    title: 'Fruit Salad with Cherry Tomatoes',
     affordability: Affordability.luxurious,
     complexity: Complexity.Simple,
     imageUrl:
@@ -431,76 +401,6 @@ List<Meals> Dummy_Meals = [
       'Halve the tomatoes',
       'Mix with asparagus, salad and dressing',
       'Serve with Baguette'
-    ],
-    isGlutenFree: true,
-    isVegan: true,
-    isVegetarian: true,
-    isLactoseFree: true,
-  ),
-  Meals(
-    id: 'm11',
-    categories: [
-      'c11',
-    ],
-    title: 'Cold Drinks',
-    affordability: Affordability.Affordable,
-    complexity: Complexity.Simple,
-    imageUrl:
-        'https://store.approvedfood.co.uk/blog/wp-content/uploads/2018/04/soft-drinks.png',
-    duration: 10,
-    ingredients: [
-      'Water and others',
-    ],
-    steps: [
-      'Wash, peel and cut the fruits',
-      'Use mixers to make the juice',
-    ],
-    isGlutenFree: true,
-    isVegan: true,
-    isVegetarian: true,
-    isLactoseFree: true,
-  ),
-  Meals(
-    id: 'm12',
-    categories: [
-      'c12',
-      'c14',
-    ],
-    title: 'Hot Drinks',
-    affordability: Affordability.Affordable,
-    complexity: Complexity.Simple,
-    imageUrl:
-        'https://image.shutterstock.com/image-photo/group-selection-different-italian-coffee-260nw-128377001.jpg',
-    duration: 10,
-    ingredients: [
-      'Water and others',
-    ],
-    steps: [
-      'Wash, peel and cut the fruits',
-      'Use boilers to make the drink',
-    ],
-    isGlutenFree: true,
-    isVegan: true,
-    isVegetarian: true,
-    isLactoseFree: true,
-  ),
-  Meals(
-    id: 'm13',
-    categories: [
-      'c12',
-      'c14',
-    ],
-    title: 'Salts & Sugars',
-    affordability: Affordability.Affordable,
-    complexity: Complexity.Simple,
-    imageUrl:
-        'https://www.healthdigest.com/img/gallery/sugar-vs-salt-which-one-is-worse-for-you/l-intro-1620746120.jpg',
-    duration: 5,
-    ingredients: [
-      'Salts and Sugars',
-    ],
-    steps: [
-      'No steps',
     ],
     isGlutenFree: true,
     isVegan: true,
